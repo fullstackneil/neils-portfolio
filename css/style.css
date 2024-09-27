@@ -2443,7 +2443,7 @@ h6 {
     margin-top: 20px; }
   .about_area .about_img {
     position: relative;
-    right: 250px; }
+    }
     @media (max-width: 1480px) {
       .about_area .about_img {
         right: 0; }
@@ -3339,3 +3339,16 @@ h6 {
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+
+@media (min-width: 1481px) {
+  .neil-headshot{
+    height: 500px;
+    width: auto;
+  }
+
+  .neil-pic {
+    height: 600px;
+    width: auto;
+  }
+
+}
