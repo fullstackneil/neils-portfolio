@@ -7,7 +7,7 @@ is the file you need to edit to change the look of the
 theme.
 ---------------------------------------------------- */
 /*=====================================================================
-@Template Name: HostHub Construction 
+@Template Name: HostHub Construction
 @Developed By: Naim Lasker
 Author E-mail: naimlasker@gmail.com
 
@@ -2456,6 +2456,28 @@ h6 {
 
 /* End About Us Area css
 ============================================================================================ */
+
+/* Start Education Area css
+============================================================================================ */
+
+.education-logos {
+  display: flex;
+  gap: 20px;
+}
+
+.longhorn-logo {
+  height: 3rem;
+
+}
+
+.app-academy-logo {
+  height: 3rem;
+}
+
+
+/* End Education Area css
+============================================================================================ */
+
 /* Start Barand Area css
 ============================================================================================ */
 .brand_area {
@@ -2463,6 +2485,18 @@ h6 {
   @media (max-width: 1199px) {
     .brand_area {
       padding-bottom: 80px; } }
+
+.logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 30px; /* Adds space between the items */
+    padding: 50px; /* Optional: Adds some padding around the grid */
+}
+
+.logos img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto;
+}
 
 /* End Barand Area css
 ============================================================================================ */
@@ -2635,6 +2669,7 @@ h6 {
       @media (max-width: 767px) {
         .portfolio_area .filters ul li {
           margin-right: 20px; } }
+
 
 .portfolio_box {
   margin-bottom: 80px; }
