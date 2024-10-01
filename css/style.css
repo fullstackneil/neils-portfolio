@@ -970,8 +970,8 @@ button:focus {
   .single-post-area .arrow .lnr {
     font-size: 20px;
     font-weight: 600; }
-.single-post-area .thumb .overlay-bg {
-  background: rgba(0, 0, 0, 0.8); }
+/* .single-post-area .thumb .overlay-bg {
+  background: rgba(0, 0, 0, 0.8); } */
 .single-post-area .navigation-area {
   border-top: 1px solid #eee;
   padding-top: 30px;
@@ -2690,11 +2690,11 @@ h6 {
 
 .single_portfolio {
   position: relative; }
-  .single_portfolio .overlay {
+  /* .single_portfolio .overlay {
     -webkit-transition: all 0.4s ease 0s;
     -moz-transition: all 0.4s ease 0s;
     -o-transition: all 0.4s ease 0s;
-    transition: all 0.4s ease 0s; }
+    transition: all 0.4s ease 0s; } */
   .single_portfolio .icon {
     position: absolute;
     top: 25%;
@@ -2720,13 +2720,13 @@ h6 {
       transform: rotate(135deg);
       color: #ffffff;
       cursor: pointer; }
-  .single_portfolio:hover .overlay {
+  /* .single_portfolio:hover .overlay {
     background: rgba(77, 87, 222, 0.5); }
   .single_portfolio:hover .icon {
     opacity: 1;
     visibility: visible;
     top: 50%;
-    left: 50%; }
+    left: 50%; } */
 
 .portfolio_details_inner .row {
   margin-bottom: 65px; }
